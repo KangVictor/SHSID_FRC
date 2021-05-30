@@ -49,8 +49,8 @@ public class RobotContainer {
     .whenPressed(m_climb::rearDown)
     .whenReleased(m_climb::rearUp);
     
-    new JoystickButton(m_controler, 3)
-    .whenPressed(m_robotDrive::)
+    new JoystickButton(m_controller, 3)
+    .whenPressed(m_robotDrive::shoot);
 
     // Configure the button bindings
     configureButtonBindings();
